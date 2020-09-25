@@ -1,0 +1,9 @@
+zuul:
+  ignored-services: '*'
+  routes:
+    users: /myusers/**
+ribbon:
+  okhttp:
+    enabled: true
+
+
